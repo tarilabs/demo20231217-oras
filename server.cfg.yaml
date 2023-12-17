@@ -1,0 +1,7 @@
+package: restoras
+output: internal/restoras/server.gen.go
+generate:
+  embedded-spec: false
+  strict-server: false
+  models: true
+  gin-server: true
